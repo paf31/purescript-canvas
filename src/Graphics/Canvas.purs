@@ -750,3 +750,6 @@ type BezierCurve =
 
 -- | Draw a cubic Bézier curve.
 foreign import bezierCurveTo :: Context2D -> BezierCurve -> Effect Unit
+
+-- | Set the image smoothing enabled flag.
+foreign import imageSmoothingEnabled :: Context2D -> Boolean -> Effect Unit
