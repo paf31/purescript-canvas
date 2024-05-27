@@ -596,6 +596,8 @@ export function bezierCurveTo(ctx) {
 
 export function imageSmoothingEnabled(ctx) {
   return function(value) {
-    ctx.imageSmoothingEnabled = value;
+    return function () {
+      ctx.imageSmoothingEnabled = value;
+    };
   };
 }
