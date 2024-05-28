@@ -593,3 +593,11 @@ export function bezierCurveTo(ctx) {
     };
   };
 }
+
+export function imageSmoothingEnabled(ctx) {
+  return function(value) {
+    return function () {
+      ctx.imageSmoothingEnabled = value;
+    };
+  };
+}

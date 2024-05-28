@@ -7,6 +7,7 @@ Notable changes to this project are documented in this file. The format is based
 Breaking changes:
 
 New features:
+- Added `imageSmoothingEnabled` to toggle the image smoothing of a `Context2D`.
 
 Bugfixes:
 
